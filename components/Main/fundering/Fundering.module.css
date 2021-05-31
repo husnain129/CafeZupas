@@ -1,0 +1,53 @@
+.container {
+    padding: 30px;
+}
+
+.container>h1 {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.data>h1 {
+    margin: 0;
+    font-size: 40pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(196, 196, 88);
+    letter-spacing: 7.5px;
+}
+
+.data>p {
+    margin: 0;
+    font-size: 16pt;
+    font-weight: 400;
+    letter-spacing: 7.5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(2, 255, 99);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(2, 255, 99);
+    color: rgb(255, 255, 255);
+}

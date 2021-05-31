@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 9vh;
+    border-bottom: 1px solid rgb(211, 196, 196);
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding-right: 3vw;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 9vw;
+    cursor: pointer;
+    background-color: #555A5C;
+    border-radius: 50px;
+    color: white;
+    font-size: 12pt;
+    font-weight: 400;
+    user-select: none;
+    transition: all 0.1s ease-in;
+}
+
+.order:active {
+    transform: translateY(1px)
+}
