@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Header.module.css';
-function Header() {
+function Header({ src }) {
 	return (
 		<div className={styles.container}>
 			<div className={styles.title}>
@@ -21,7 +21,8 @@ function Header() {
 				</ul>
 			</div>
 			<div className={styles.img_container}>
-				<Image src="/img/4.jpg" width={1621} height={1000} priority="eager" />
+				{/* <Image src={src} width={1621} height={1000} priority="eager" /> */}
+				<Image src={src} width={1421} height={840} priority="eager" />
 				<div className={styles.img_text}>
 					<p>
 						Eating <br /> Greate nevel <br /> feel better

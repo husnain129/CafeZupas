@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Navbar />
-			<Header />
+			<Header src="/img/4.jpg" />
 			<Carousel />
 			<Catering />
 			<Fundering />
