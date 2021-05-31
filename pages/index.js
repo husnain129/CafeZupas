@@ -1,4 +1,5 @@
 import Carousel from '../components/carousel/Carousel';
+import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Catering from '../components/Main/catering/Catering';
 import Fundering from '../components/Main/fundering/Fundering';
@@ -12,6 +13,7 @@ export default function Home() {
 			<Carousel />
 			<Catering />
 			<Fundering />
+			<Footer />
 		</div>
 	);
 }
